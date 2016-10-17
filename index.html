@@ -1,22 +1,45 @@
-Hello World
 <!DOCTYPE html>
 <html>
 <head>
-	<h1><title>Welcome to Breakfast Around The World</title></h1>
+<title>Breakfast Around the World</title>	
+<nav> <a href ="recipes.html"> Recipes</a></nav>
+	<h1>Breakfast Around the World</h1>
 </head>
 <body>
 <p>
-Here you can learn about the first meal of the days from cultures across the globe. 
+Learn about the first meal of the day from cultures across the globe.
+<form name = "breakfast" action = "https://httpbin.org/post" method = "post">
+<div>
+<label>Where would you like to travel?</label>
+	<select name = "country">
+		<option value ="Brazil">Brazil</option>
+		<option value ="Morocco">Morocco</option>
+		<option value = "Mexico">Mexico</option>
+	</select>
+</div>
+</form>
 
-Brazil 
-<img src="http://cookingtheglobe.com/wp-content/uploads/2016/04/brazilian-breakfast.jpg">
- 
-Morocco 
-<img src="BATW/Moroccan-Breakfast.jpg.824x0_q85.jpg"> 
+	<div>
+<h2>Brazil </h2>
+</div>
+<div>
+<img src="http://cookingtheglobe.com/wp-content/uploads/2016/04/brazilian-breakfast.jpg" height= "225" width= "412">
+</div>
 
-Mexico
-<img src="BATW/Mexican-breakfast.jpg">
 
+	<div>
+<h2>Morocco</h2> </div>
+<div>
+<img src="BATW/Moroccan-Breakfast.jpg.824x0_q85.jpg" height="225" width="412"> 
+</div>
+<div>
+<h2>Mexico</h2></div>
+<div>
+<img src="BATW/Mexican-breakfast.jpg" height="225" width="412">
+</div>
 </p>
+Blogroll
+<div><a href="view-source:http://cookingtheglobe.com/recipe-index/?_sft_meal-type=breakfast&sf_paged=2">Cooking the Globe </a> </div>
+<div> <p>I like this site because the arrangement of images is very clean and inviting. The forms on this page also give you plenty of options lead you to the recipes the user is searching for. </p></div>
 </body>
 </html>
