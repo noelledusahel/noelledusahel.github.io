@@ -15,7 +15,9 @@ h1 {
 }
 footer {
 	text-align: center;
+
 }
+
 a:link {
 	color: blue;
 }
@@ -29,7 +31,14 @@ a:hover {
 	font-style: italic;
 }
 @media screen and (max-width: 500px){ 
-	body {
-		{width: 200px; float: right;}
+	section {
+		width: 100%;
+		display: block;
+		float: left;
 	}
  }
+ @media screen and (max-width: 500px){ 
+	img {
+		width: 100%;
+		display: block;
+		float: left;
